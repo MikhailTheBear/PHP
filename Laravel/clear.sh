@@ -17,7 +17,6 @@ if [ "$answer" = "y" ] || [ "$answer" = "Y" ]; then
     echo -e "${GREEN}Готово.${NC}"
 else
     echo "Отмена."
-    exit 1
 fi
 
 read -p "Очистить view? (y/N): " answer

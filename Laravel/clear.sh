@@ -7,6 +7,8 @@ NC='\033[0m'
 
 echo -e "${RED}Очистка Laravel by @MikhailTheBear${NC}"
 
+echo -e "${YELLOW}-------------"
+
 read -p "Очистить config? (y/N): " answer
 
 if [ "$answer" = "y" ] || [ "$answer" = "Y" ]; then
@@ -17,6 +19,8 @@ else
     echo -e "${RED}Отмена."
 fi
 
+echo -e "${YELLOW}-------------"
+
 read -p "Очистить route? (y/N): " answer
 
 if [ "$answer" = "y" ] || [ "$answer" = "Y" ]; then
@@ -26,6 +30,8 @@ if [ "$answer" = "y" ] || [ "$answer" = "Y" ]; then
 else
     echo -e "${RED}Отмена."
 fi
+
+echo -e "${YELLOW}-------------"
 
 read -p "Очистить view? (y/N): " answer
 

@@ -5,7 +5,7 @@ PHP terminal Tricks
 
 --------------------------------------
 
-Clear Laravel cache:
+Очистить Кэш Laravel:
 
 ```
 bash <(curl -fsSL https://raw.githubusercontent.com/MikhailTheBear/PHP/refs/heads/main/Laravel/clear.sh)

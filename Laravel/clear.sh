@@ -5,7 +5,9 @@ GREEN='\033[0;32m'
 YELLOW='\033[0;33m'
 NC='\033[0m'
 
-echo -e "${RED}Очистка Laravel by @MikhailTheBear${NC}"
+echo -e "${RED}Очистка Laravel by ${YELLOW}@MikhailTheBear${NC}"
+
+echo -e "${RED}^C${YELLOW} для выхода."
 
 echo -e "${YELLOW}-------------"
 
